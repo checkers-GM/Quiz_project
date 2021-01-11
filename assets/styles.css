@@ -9,7 +9,11 @@
 .startMenu {}
 
 .hidden {
-    display: none;
+    display: flex;
 }
 
 .options {}
+
+.quizOptions {
+    display: flex;
+}
