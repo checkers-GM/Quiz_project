@@ -1,0 +1,15 @@
+.highscores {}
+
+.countdownClock {}
+
+.container {
+    display: flex;
+}
+
+.startMenu {}
+
+.hidden {
+    display: none;
+}
+
+.options {}
