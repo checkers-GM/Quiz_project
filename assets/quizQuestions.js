@@ -23,5 +23,4 @@ var quizQandA = [{
         quizOptions: ["1. Javascript", "2. terminal/bash", "3. for loops", "4. console log"],
         quizAnswer: "4. all of the above"
     },
-
 ]
