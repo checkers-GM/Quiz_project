@@ -1,0 +1,19 @@
+.highscores {}
+
+.countdownClock {}
+
+.container {
+    display: flex;
+}
+
+.startClass {}
+
+.hidden {
+    display: none;
+}
+
+.options {}
+
+.quizOptions {
+    display: flex;
+}

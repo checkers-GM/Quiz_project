@@ -6,12 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/styles.css">
-    <script type="text/javascript" src="assets/scripts.js"></script>
-
 </head>
 
 <body>
 
+    <!-- I need a button that you can click to go to the highscore page -->
+
+    <div class="highscores">
+        <a href="highscores.html"></a>
+    </div>
+
+    <!-- I need a countdown timer -->
+
+    <div class="countdownClock">Time: <span id="time">0</span></div>
+
+    <!-- I need a title and a paragraph explaining the rules of the quiz -->
+
+    <div class="container">
+        <div id="startMenu" class="startClass">
+            <h1> Welcome to my Coding Quiz Challenge !</h1>
+            <p> Careful to answer the questions correctly in the time given! </p>
+
+            <!-- I need a button that will start the quiz  -->
+            <button id="startQuiz"> Click here to start your Quiz! </button>
+        </div>
+        <!-- I need a div to apend the QuizQandA object information to -->
+        <div id="quizQuestions" class="hidden">
+            <h2 id="quiz-question"></h2>
+            <div id="options" class="options"></div>
+        </div>
+        <!-- I need a div for the end screen of the quiz  -->
+
+    </div>
+
+    <script type="text/javascript" src="assets/scripts.js"></script>
+    <script type="text/javascript" src="assets/quizQuestions.js"></script>
 </body>
 
 </html>
