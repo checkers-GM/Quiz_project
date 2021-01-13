@@ -6,10 +6,10 @@
     display: flex;
 }
 
-.startMenu {}
+.startClass {}
 
 .hidden {
-    display: flex;
+    display: none;
 }
 
 .options {}
